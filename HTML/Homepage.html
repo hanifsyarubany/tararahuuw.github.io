@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+    <link rel = "stylesheet" href = "../CSS/style.css">
+</head>
+<body>
+    <!-- <p> adalah tag untuk paragraf -->
+    <!-- access key, class, id, dir ,lang ,style , tabindex, title-->
+    <!-- <br> itu untuk baris baru -->
+    <!-- <hr> itu untuk garis harizontal-->
+    <!-- <b> itu untuk bold-->
+    <!-- <i> itu untuk italic-->
+    <!-- <u> itu untuk underline-->
+    <p id = "p1"><b>ini adalah</b> <i>sebuah paragraf 1</i></p>
+    <br>
+    <p class = "p2">ini adalah </br><u>sebuah paragraf 2</u></p>
+    <hr>
+    <!-- h1 untuk judul artikel-->
+    <!-- h1 untuk isi artikel-->
+    <!-- h1 untuk sub judul artikel-->
+    <!-- h1 untuk sub2 judul artikel-->
+    <h1>Heading1</h1>
+    <h2>Heading1</h2>
+    <h3>Heading1</h3>
+    <h4>Heading1</h4>
+    <h5>Heading1</h5>
+    <h6>Heading1</h6>
+    <hr>
+    <!-- ol : order list-->
+    <!-- <ol type = "A",1,A,a,I,i >-->
+    
+    <!-- ul : unorder list-->
+    <!-- <ol type = "disc",disc,square,circle >-->
+    <!-- dl : definition list-->
+    <h3>To Do List</h3>
+    <ol>
+        <li>Bangun Pagi</li>
+        <li>Mandi</li>
+        <li>Kuliah</li>
+    </ol>
+    <h3>Saya akan sarapan dengan : </h3>
+    <ul>
+        <li>Nasi goreng</li>
+        <li>Mie goreng</li>
+    </ul>
+    <h3>Bahasa Pemrograman</h3>
+    <dl>
+        <dt>Python</dt>
+        <dd>Bahasa ibu</dd>
+        <dt>Java</dt>
+        <dd>Bahasa ayah</dd>
+    </dl>
+    <hr>
+    <!-- target = "_blank" untuk tab baru-->
+    <!-- target = "_self" untuk satu tab-->
+    <a href="Halaman2.html" target = "_blank">Klik disini</a>
+    <hr>
+    <!-- alt = "" alternatif-->
+    <!-- title = "" judul di kursor-->
+    <!-- widht = "" alternatif-->
+    <!-- height = "" alternatif-->
+    <img src="picture.jpg" alt = "dor" widht = "100%">
+    <hr>
+    <!-- input, textarea,select -> combobox, button, label-->
+    <!-- input = text, password, radio, checkbox, submit, button-->
+    <!-- radio name = ""-->
+    <form>
+        <label for="username">Username : </label>
+        <input type="text" id = "username">
+        <br>
+        <label for="pass">Password : </label>
+        <input type="password" id = "pass">
+        <br>
+        <input type="radio" id = "pria" name = "jeniskelamin">
+        <label for="pria">pria</label>
+        <input type="radio" id = "wanita" name = "jeniskelamin">
+        <label for="wanita">wanita</label>
+        <br>
+        <input type="checkbox" id = "penyanyi"><label for="penyanyi">Menyanyi</label>
+        <br>
+        <input type="checkbox" id = "memasak"><label for="memasak">Memasak</label>
+        <br>
+        <input type="checkbox" id = "tidur"><label for="tidur">Tidur</label>
+        
+        <!--button type = "" submit, reset, butotn-->
+        <button type = "submit">Kirim</button>
+        <!--textarea-->
+        <textarea></textarea>
+        <!--select <option>-->
+        <select>
+            <option>Jakarta</option>
+            <option>Bandung</option>
+            <option>Surabaya</option>
+        </select>
+        <!-- pola background : subtle pattern-->
+    </form>
+
+</body>
+</html>
